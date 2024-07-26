@@ -1,0 +1,28 @@
+{
+  "name": "photo-stats",
+  "version": "0.0.1",
+  "description": "Photo stats",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "get-stats": "node ./src/get-stats.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-wolf-farm/photo-stats.git"
+  },
+  "keywords": [
+    "photos",
+    "exif",
+    "stats"
+  ],
+  "author": "dwf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digital-wolf-farm/photo-stats/issues"
+  },
+  "homepage": "https://github.com/digital-wolf-farm/photo-stats#readme",
+  "dependencies": {
+    "exif": "^0.6.0"
+  }
+}
