@@ -3,7 +3,6 @@ import { readExifData, writeFile } from './lib/fs.js';
 import { summarizeData } from './lib/summary.js';
 
 const outputDirectory = './output';
-const photosSummary = {};
 
 const extractExifData = async () => {
     const exifData = [];
